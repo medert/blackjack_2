@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'hand'
 
 class Deck
 
@@ -22,7 +23,7 @@ class Deck
   end
 
   def deal(num)
-    cards.pop(num)
+    @cards.pop(num)
   end
 
 end

@@ -9,7 +9,7 @@ class Card
   end
 
   def face?
-    %w(K Q J).include?(rank)
+    %w(KQJ).include?(rank)
   end
 
   def ace?
